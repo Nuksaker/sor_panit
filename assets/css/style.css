@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgba(15, 15, 15, 0.9);
+  color: white;
+  height: 165px;
+}
+
+.img-shop{
+    max-width: 100px;
+}
+
+.header h2{
+    color: #c8b7ae;
+}
+
+.input_search {
+  max-width: 200px;
+  height: 35px;
+  min-width: 200px;
+}
+.btn-logout {
+  min-width: 120px;
+}
+
+nav {
+    background-color: #dae5a9;
+    font-size: 1.5rem;
+    
+}
+
+nav li:hover {
+  background-color: #1e1e1e;
+  border-radius: 7px;
+  color: #ffffff;
+  width: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.collapse {
+    display: flex;
+}
+
+.collapse a{
+    color: #000000;
+    
+}
+
+.collapse a:hover{
+    color: #ffffff;
+    
+}
+/* nav a:hover {
+  color: #ffffff;
+} */
+
+.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;    
+}
+
+.main{                  
+    min-height:75vh ;                  /* ขนาด content */
+    background-color: #b5c473;
+}
+
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 5vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+  }
