@@ -62,11 +62,19 @@ nav li:hover {
     margin-right: 10px;    
 }
 
-.main{                  
-    min-height:75vh ;                  /* ขนาด content */
-    background-color: #b5c473;
+.b-g{
+  background-color: #b5c473;
 }
 
+.main{                  
+    min-height:100vh;                  /* ขนาด content */
+}
+
+tr {
+  /* border: 0px solid transparent; */
+  
+  height: 50px;
+}
 
 
 footer {
