@@ -76,6 +76,15 @@ tr {
   height: 50px;
 }
 
+.input-login{
+  height: 40px;
+  width: 300px;
+  /* min-width: 150px; */
+  border-radius: 9px;
+  padding-left: 11px;
+  border: 0;
+}
+
 
 footer {
     position: fixed;
